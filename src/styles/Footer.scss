@@ -1,0 +1,26 @@
+@import "./color_variables.scss";
+.devider-separator {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: #FFFFFF1A;
+    margin: 15px 0;
+}
+.footer {
+    min-height: 80px;
+    height: 100%;
+    width: 100%;
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    &-container {
+        height: 100%;
+    }
+    &__license {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $colorTextWhite;
+    }
+}

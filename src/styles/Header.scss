@@ -1,4 +1,11 @@
 @import "./color_variables.scss";
+
+.offcanvas-body {
+    background-color: $colorPurple;
+    color: $colorTextWhite;
+    font-weight: 600;
+    font-size: 20px;
+}
 .header {
     background-color: $colorPurple;
     color: $colorTextWhite;
@@ -12,6 +19,9 @@
         height: 100%;
     }
     .nav-link {
+        color: $colorTextWhite;
+    }
+    .navbar-toggler {
         color: $colorTextWhite;
     }
 } 
