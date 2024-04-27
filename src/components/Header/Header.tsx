@@ -1,4 +1,5 @@
 import { Container, Nav, Navbar, Offcanvas } from 'react-bootstrap'
+import logo from "src/assets/icons/logo.png"
 import 'src/styles/Header.scss'
 
 export default function Header() {
@@ -7,7 +8,7 @@ export default function Header() {
         <Navbar key={'md'} expand={'lg'} variant='dark'>
             <Container>
                 <Navbar.Brand href={'/'}>
-                    <img src="src/assets/icons/logo.png" alt="" className='header__logo'/>
+                    <img src={logo} alt="" className='header__logo'/>
                 </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
