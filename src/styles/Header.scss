@@ -1,0 +1,17 @@
+@import "./color_variables.scss";
+.header {
+    background-color: $colorPurple;
+    color: $colorTextWhite;
+    height: 80px;
+    &__logo {
+        width: 60px;
+        height: 60px;
+    }
+    .navbar {
+        padding: 0 10px;
+        height: 100%;
+    }
+    .nav-link {
+        color: $colorTextWhite;
+    }
+} 
