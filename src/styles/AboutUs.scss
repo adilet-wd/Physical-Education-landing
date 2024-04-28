@@ -1,0 +1,25 @@
+@import "./breakpoints.scss";
+.about-us {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    &__cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 20px;
+        @media (max-width: $media-width-md) {
+            gap: 15px
+        }
+        .card {
+            max-width: 250px;
+            width: 100%;
+            @media (max-width: $media-width-md) {
+                max-width: 220px;
+            }
+            @media (max-width: $media-width-xs) {
+                max-width: 280px;
+            }
+        }
+    }
+}
