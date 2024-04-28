@@ -1,0 +1,21 @@
+@import "./color_variables.scss";
+.notFound {
+    height: calc(100vh - 160px);
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.notFound__text {
+    color: $colorPurple;
+    h1 {
+        text-align: center; 
+        font-weight: 700;
+        font-size: 3em;
+     }
+     p {
+         font-size: 2em;
+         text-align: center;
+     }
+}
