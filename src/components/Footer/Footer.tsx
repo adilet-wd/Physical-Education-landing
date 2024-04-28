@@ -6,7 +6,8 @@ export default function Footer() {
     <footer className="footer">
         <Container className="footer-container">
             <span className="devider-separator"></span>
-            <div className="footer__license">© Международный Университет Ала-Тоо 2024</div>
+            {/* <div className="footer__license">© Международный Университет Ала-Тоо 2024</div> */}
+            <div className="footer__license">© Усенканов Адилет SCA-22a 2024</div>
         </Container>
     </footer>
   )

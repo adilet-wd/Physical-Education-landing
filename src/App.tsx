@@ -10,6 +10,7 @@ import Volleyball from './pages/Clubs/Volleyball/Volleyball';
 import Football from './pages/Clubs/Football/Football';
 import Chess from './pages/Clubs/Chess/Chess';
 import { useEffect } from 'react';
+import Schedule from './pages/Schedule/Schedule';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/clubs/volleyball" element={<Volleyball/>}></Route>
         <Route path="/clubs/football" element={<Football/>}></Route>
         <Route path="/clubs/chess" element={<Chess/>}></Route>
+        <Route path="/schedule" element={<Schedule/>}></Route>
       </Route>
     </Routes>
   )

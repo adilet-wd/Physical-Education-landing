@@ -24,7 +24,7 @@ export default function Header() {
                         <Nav className="justify-content-end flex-grow-1 pe-3 navLinks">
                             <Nav.Link href="/">Главная</Nav.Link>
                             <Nav.Link href="/">О нас</Nav.Link>
-                            <Nav.Link href="/">Расписание</Nav.Link>
+                            <Nav.Link href="/schedule">Расписание</Nav.Link>
                         </Nav>
                     </Offcanvas.Body>
                 </Navbar.Offcanvas>

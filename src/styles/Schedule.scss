@@ -1,0 +1,26 @@
+@import "./color_variables.scss";
+.schedule {
+    margin-top: 20px;
+    min-height: 70vh;
+    .btn-purple {
+        background-color: $colorPurple;
+        color: white;
+        &:hover {
+            background-color: $colorPurple;
+            color: white;
+            border-color: $colorPurple;
+        }
+    }
+    .dropdown-item {
+        color: $colorTextBlack;
+        text-transform: uppercase;
+        &:hover {
+            background-color: $colorPurple;
+            color: white;
+        }
+    }
+    .dropdown-menu {
+        border-color: $colorPurple;
+        box-shadow: 0 0 10px $colorPurple;
+    }
+}
