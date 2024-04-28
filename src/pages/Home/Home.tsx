@@ -5,14 +5,21 @@ import volleyball from "src/assets/clubs/volleyball/volleyball.jpeg";
 import chess from "src/assets/clubs/chess/chess.jpeg";
 import football from "src/assets/clubs/football/football.jpeg";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 export default function Home() {
   return (
+    <>
+    <Helmet>
+        <title>Кафедра физической культуры - Международный университет Ала-Тоо</title>
+        <meta name="description" content="Кафедра физической культуры" />
+        <meta name="keywords" content="кафедра, спорт, командная игра, физическая культура, МУА, Ала-Тоо" />
+    </Helmet>        
     <div className="home">
         <div className="home__background-img">
             <Container className="background-container">
                 <h2>Международный университет Ала-Тоо</h2>
-                <h1>Факультет физической культуры</h1>
+                <h1>Кафедра физической культуры</h1>
             </Container>
         </div>
         <Container className="home-container">
@@ -37,5 +44,6 @@ export default function Home() {
             </div>
         </Container>
     </div>
+    </>
   )
 }
