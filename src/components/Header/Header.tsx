@@ -6,9 +6,9 @@ export default function Header() {
   return (
     <header className="header">
         <Navbar key={'md'} expand={'lg'} variant='dark'>
-            <Container>
+            <Container className='header-container'>
                 <Navbar.Brand href={'/'}>
-                    <img src={logo} alt="" className='header__logo'/>
+                    <img src={logo} alt="Ala-Too" className='header__logo'/>
                 </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />

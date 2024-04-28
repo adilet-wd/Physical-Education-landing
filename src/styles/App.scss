@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import "./color_variables.scss";
 .wrapper {
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
+}
+.section-title {
+    font-size: 28px;
+    font-weight: 600px;
+    color: $colorPurple;
+    font-family: "Inter", sans-serif;
+    margin: 20px 0;
 }
