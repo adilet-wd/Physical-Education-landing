@@ -1,9 +1,9 @@
 import { Container } from "react-bootstrap";
 import "src/styles/Home.scss";
-import basketball from "src/assets/clubs/basketball.jpeg";
-import volleyball from "src/assets/clubs/volleyball.jpeg";
-import chess from "src/assets/clubs/chess.jpeg";
-import football from "src/assets/clubs/football.jpeg";
+import basketball from "src/assets/clubs/basketball/basketball.jpeg";
+import volleyball from "src/assets/clubs/volleyball/volleyball.jpeg";
+import chess from "src/assets/clubs/chess/chess.jpeg";
+import football from "src/assets/clubs/football/football.jpeg";
 import { Link } from "react-router-dom";
 
 export default function Home() {
